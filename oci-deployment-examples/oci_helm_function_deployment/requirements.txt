@@ -1,4 +1,0 @@
-fdk
-requests
-oci
-oci-cli
