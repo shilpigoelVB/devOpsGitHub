@@ -9,5 +9,5 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    version = os.getenv('image_url', default = 'bmhcpjocbku8/python_fastapi_app:')
+    version = os.getenv('image_url', default = '0.0.0.0')
     return {"Message": "With ❤️ from OCI DevOps via GitHubLab Actions","Version":version}
